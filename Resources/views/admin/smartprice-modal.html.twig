@@ -1,0 +1,10 @@
+<h3>GPT Pricing Recommendation</h3>
+<pre id="gpt-pricing-output">Loading recommendation...</pre>
+
+<script>
+fetch('/admin/smartprice/run?id={{ productId }}')
+  .then(res => res.json())
+  .then(data => {
+    document.getElementById('gpt-pricing-output').textContent = data.response || 'No result';
+  });
+</script>

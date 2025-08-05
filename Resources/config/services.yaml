@@ -1,0 +1,4 @@
+services:
+  SmartPriceAdvisorBundle\Service\GPTPricingAdvisor:
+    arguments:
+      $openAiKey: '%env(OPENAI_API_KEY)%'
