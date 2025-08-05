@@ -1,5 +1,5 @@
 # Pimcore Smart Price Advisor
-# SmartPriceAdvisorBundle
+## SmartPriceAdvisorBundle
 
 SmartPriceAdvisorBundle is a custom Pimcore extension that integrates OpenAI's GPT-4 to analyze and recommend competitive pricing strategies for products based on real-time product metadata.
 
